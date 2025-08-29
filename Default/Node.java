@@ -3,8 +3,8 @@ package Default;
 public abstract class Node implements pixelMap{
 	//TODO: interface stitching as necessary
 	protected int x,y, w, h; //Accessors, no mutators
-	protected Updator updator; //NOTE: this should be null by default.
 	//^^ refers to origin point.
+	protected Updator updator; //NOTE: this should be null by default.
 	public abstract int getRelative(int x, int y);
 	public int getAbsolute(int x, int y)
 	{
